@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="main.css">
+  <script src="bundle.js" async></script>
+</head>
+<body>
+
+  <h1>Enter your data</h1>
+
+  <h4>
+    <div data-controller="person">
+      <p>
+        Name:
+        <input data-target="person.name" type="text" data-action="change->person#to_upper">
+      </p>
+      <p>
+        Username:
+        <input data-target="person.username" type="text">
+        <button data-action="click->person#username_suggestion">USERNAME SUGGESTION</button>
+      </p>
+      <p>
+        Document:
+        <input data-target="person.document" type="text" data-action="paste->person#paste">
+      </p>
+      <p>
+        Enter your favorite color:
+        <input data-target="person.favcolor" type="text" data-action="change->person#color">
+      </p>
+    </div>
+  </h4>
+
+</body>
+</html>
