@@ -22,7 +22,8 @@ http://localhost:9000
 ```
 
 Your app should work like that:
-````
+```
+
 ![screen01.jpg](public/rails_stimulus_blog_post02.gif)
 
 ---
