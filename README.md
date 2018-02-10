@@ -6,7 +6,7 @@ You can see here an online version of this app [stimulus-people-form-example.her
 
 ---
 
-To clone and set up this `stimulus- project`:
+To clone and set up this project:
 
 ```
 $ git clone https://github.com/sergiosouzalima/stimulus-people-form-example.git
@@ -21,7 +21,7 @@ Now, to run this app, enter the following address in your browser address bar:
 http://localhost:9000
 ```
 
-You should see a screen working like that:
+Your app should work like that:
 
 ![screen01.jpg](public/rails_stimulus_blog_post02.gif)
 
