@@ -7,11 +7,11 @@ export default class extends Controller {
     console.log("Stimulus is working!")
   }
 
-  username_suggestion() {
-    this.username.value = this.to_username(this.name.value)
+  usernameSuggestion() {
+    this.username.value = this.toUsername(this.name.value)
   }
 
-  to_upper() {
+  toUpper() {
     this.name.value = this.name.value.toUpperCase()
   }
 
@@ -24,7 +24,7 @@ export default class extends Controller {
     this.favcolor.style.backgroundColor = this.favcolor.value
   }
 
-  to_username(name) {
+  toUsername(name) {
     return name.toLowerCase().replace(/\s+/g,"") +  "00" + this.rand()
   }
 
